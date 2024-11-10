@@ -156,8 +156,8 @@ button {
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
-  padding: 56px 88px;
-  margin: 0 151px;
+  padding: 50px;
+  margin: 0 144px;
   background: #FFFFFF;
   box-shadow: 0px 11px 35px rgba(0, 0, 0, 0.08);
   border-radius: 4px;
@@ -194,7 +194,7 @@ button {
 }
 
 .main__service {
-  margin: 0 50px 128px;
+  margin: 0 144px 128px;
 }
 .main__service__title {
   line-height: 62px;
@@ -235,7 +235,7 @@ button {
   display: flex;
   justify-content: space-between;
   background: #ECF4FF;
-  padding: 60px 50px;
+  padding: 128px 144px;
 }
 .main__domodedovo__title {
   line-height: 62px;
@@ -277,7 +277,7 @@ button {
   left: 260px;
 }
 .main__testimonial {
-  padding: 50px;
+  padding: 128px 144px;
 }
 .main__testimonial__title {
   font-weight: bold;
@@ -347,7 +347,7 @@ button {
 }
 .main__couese {
   background: #ECF4FF;
-  padding: 60px 50px;
+  padding: 128px 144px;
 }
 .main__couese__title {
   line-height: 62px;
@@ -429,7 +429,7 @@ button {
   margin: 24px auto 0;
 }
 .main__event {
-  margin: 130px 50px;
+  padding: 128px 144px;
 }
 .main__event__title {
   line-height: 62px;
@@ -503,7 +503,7 @@ button {
 }
 .main__contact {
   background: #ECF4FF;
-  padding: 60px 50px;
+  padding: 128px 144px;
 }
 .main__contact__title {
   line-height: 62px;
@@ -648,13 +648,16 @@ button {
   .header__statistics {
     margin: 0;
     border-radius: 0;
-    padding: 56px;
+    padding: 60px 50px;
   }
   .header__baner__hero__img {
     top: -150px;
     right: -300px;
     width: 30%;
 }
+  .main__domodedvo .main__testimonial .main__couese .main__event .main__contact {
+    padding: 60px 50px;
+  }
 }
 @media (max-width: 800px) {
   .main__service__cards {
