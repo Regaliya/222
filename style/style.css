@@ -276,7 +276,7 @@ button {
   left: 260px;
 }
 .main__testimonial {
-  padding: 128px 144px;
+  padding: 0 144px 128px;
 }
 .main__testimonial__title {
   font-weight: bold;
