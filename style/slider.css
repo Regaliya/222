@@ -77,7 +77,7 @@
 /* Конкретный слайдер */
 .slider {
     position: relative;
-    padding: 0px 64px;
+    padding: 0px 5px;
     width: 70%;
 }
 
