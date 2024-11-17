@@ -2,6 +2,7 @@ body {
   margin: 0 auto;
   max-width: 1600px;
   background-color: #ffffff;
+  border: 0.5px solid  #172219;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -17,7 +18,7 @@ body {
 
 a {
   color: #137000;
-  font-size: 20px;
+  font-size: 24px;
   text-decoration: none;
 }
 
@@ -25,22 +26,28 @@ h2 {
   font-weight: bold;
   font-size: 48px;
   line-height: 62px;
-  margin: 0;
   text-align: center;
   color: #222222;
 }
 
 h3 {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 40px;
   line-height: 62px;
-  margin: 0;
+  text-align: center;
+  color: #222222;
+}
+h4 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 62px;
   text-align: center;
   color: #222222;
 }
 
 p {
   font-size: 20px;
+  max-width: 500px;
   line-height: 155%;
   color: #555555;
 }
@@ -69,7 +76,7 @@ button {
 }
 
 .icons {
-  margin: 20px 0;
+  margin: 20px 5px;
   width: 40px;
   height: 40px;
 }
@@ -97,10 +104,11 @@ button {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
+  margin: 0 20px;
 }
 .header__nav__link li {
   display: flex;
-  margin: auto 16px;
+  margin: auto 10px;
 }
 .header__nav__link__text {
   text-decoration: none;
@@ -126,7 +134,7 @@ button {
 }
 .header__baner__hero {
   height: 739px;
-  padding: 170px 150px 283px;
+  padding: 170px 144px 283px;
   box-sizing: border-box;
   background: #172219;
 }
@@ -147,7 +155,7 @@ button {
 .header__baner__hero__text {
   font-size: 24px;
   text-align: left;
-  margin: 24px auto 54px;
+  margin: 24px 0 54px;
   color: #ffffff;
 }
 .header__baner__hero__button {
@@ -158,7 +166,7 @@ button {
   justify-content: space-between;
   box-sizing: border-box;
   padding: 56px 88px;
-  margin: 0 151px;
+  margin: 0 144px;
   background: #FFFFFF;
   box-shadow: 0px 11px 35px rgba(0, 0, 0, 0.08);
   border-radius: 4px;
@@ -182,6 +190,7 @@ button {
 }
 .header__statistics__card__text {
   display: block;
+  font-size: 18px;
   /* identical to box height, or 25px */
   color: #137000;
 }
@@ -189,13 +198,14 @@ button {
 .detailed {
   font-size: 18px;
   line-height: 155%;
-  text-align: left;
+  text-align:left;
   list-style-type: none;
   color: #137000;
+  padding: 20px 0 0;
 }
 
 .main__service {
-  margin: 20px 0;
+  margin: 80px 0 150px;
 }
 
 .main__service__text {
@@ -223,11 +233,14 @@ button {
 .main__service__cards__card__text {
   text-align: left;
 }
+.main__aboutass {
+  margin: 0 144px 130px;
 
+}
 .main__aboutass__text {
   margin: 12px auto 42px;
   text-align: center;
-  width: 500px;
+  max-width: 800px;
 }
 .main__aboutass__info {
   width: 30%;
@@ -238,7 +251,7 @@ button {
 .main__aboutass__info__text {
   margin: 12px auto 42px;
   text-align: center;
-  width: 200px;
+  max-width: 380px;
 }
 .main__aboutass__cards {
   display: flex;
@@ -278,7 +291,7 @@ button {
 }
 .main__many {
   background: #ECF4FF;
-  padding: 60px 50px;
+  padding: 130px 144px;
 }
 
 .main__many__text {
@@ -294,12 +307,16 @@ button {
   margin: 48px 0;
 }
 .main__many__cards__card {
-  box-sizing: border-box;
-  width: 341px;
+  display: flex;
+  width: 380px;
+  min-height: 300px;
   padding: 12px 24px 23px;
   background: #FFFFFF;
   border-radius: 6px;
   margin: 12px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .main__many__cards__card__item {
   display: flex;
@@ -320,16 +337,17 @@ button {
 .main__many__cards__card__list {
   display: flex;
   justify-content: space-between;
-  margin: 20px 0 18px;
+  margin: 10px 0;
 }
 .main__many__cards__card__list__title {
-  width: 62%;
-  height: 95px;
+  width: 75%;
+  font-size: 20px;
   line-height: 31px;
   text-align: left;
 }
 .main__many__cards__card__list__number {
   font-weight: bold;
+  width: 20%;
   font-size: 20px;
   line-height: 31px;
   margin: 0;
@@ -347,7 +365,7 @@ button {
   margin: 24px auto 0;
 }
 .main__event {
-  margin: 130px 50px;
+  margin: 130px 144px;
 }
 
 .main__event__text {
@@ -369,9 +387,8 @@ button {
 }
 .main__event__cards__card {
   box-sizing: border-box;
-  width: 350px;
+  width: 380px;
   white-space: nowrap;
-  margin: 0 auto;
 }
 .main__event__cards__card__img {
   width: 100%;
@@ -415,7 +432,7 @@ button {
 }
 .main__contact {
   background: #ECF4FF;
-  padding: 60px 50px;
+  padding: 130px 144px;
 }
 .main__contact__title {
   padding: 0 0 50px 0;
@@ -427,20 +444,44 @@ button {
   display: flex;
   justify-content: space-between;
 }
+.footer {
+  background: #172219;
+  padding: 8px 30px;
+}
 @media (max-width: 1230px) {
   .header__baner__hero__img {
     top: -349px;
     right: -578px;
     width: 40%;
   }
-  .header__baner__hero {
-
-      padding: 170px 50px 283px;
-    }
+  a {
+    font-size: 20px;
+  }
   
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1040px) {
+  .header__baner__hero {
+    padding: 100px 50px;
+  }
+  .main__aboutass {
+    margin: 0 50px 60px;
+  }
+  .main__event {
+    margin: 60px 50px;
+  }
+  .main__many {
+    padding: 60px 50px;
+  }
+  .main__contact {
+    padding: 60px 50px;
+  }
+  .header__baner__hero__title {
+    font-size: 48px;
+  }
+  .header__baner__hero__text {
+    font-size: 18px;
+  }
   body.lock {
     overflow: hidden;
   }
@@ -518,10 +559,10 @@ button {
   }
   .header__nav {
     position: fixed;
-    top: -150%;
+    top: -200%;
     left: 0px;
     max-width: 80%;
-    margin: 60px 0 0;
+    margin: 0;
     transition: 0.3s ease 0s;
     overflow: auto;
     background: #000000;
@@ -532,7 +573,10 @@ button {
     border-top: 2px solid #000;
   }
   .header__nav.active {
-    top: 76px;
+    top: 0;
+    padding: 100px 50px 50px;
+    display: block;
+    width: 50%;
   }
   .header__nav__link {
     display: block;
@@ -571,7 +615,9 @@ button {
     width: 400px;
     margin: 0 auto;
   }
-  
+  .main__event__cards {
+    justify-content: center;
+  }
   .main__contact__text {
     font-size: 16px;
     margin: 0 0 20px;
@@ -582,6 +628,7 @@ button {
     margin: 0 auto;
 
   }
+
   a {
     font-size: 18px;
   }
@@ -589,17 +636,21 @@ button {
     font-size: 32px;
   }
   h3 {
-    font-size: 18px;
+    font-size: 24px;
     line-height: 32px;
   }
   p {
-    font-size: 18px;
+    font-size: 16px;
   }
-  .main__domodedovo {
-    display: block;
-    padding: 60px 20px;
+  .slider__item__text
+{
+  font-size: 14px;
+}
+
+}
+@media (max-width: 600px) {
+  .header__nav.active {
+    width: 100%;
   }
-  .main__couese {
-    padding: 60px 20px;
-  }
+  
 }
