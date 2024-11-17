@@ -6,12 +6,12 @@ $(document).ready(function () {
     $('.slider').slick({
         arrows: true,
         dots: true,
-        slidesToShow: 2,
+        slidesToShow: 3,
         autoplay: true,
         speed: 5000,
         autoplaySpeed: 1000,
         responsive: [{
-                breakpoint: 1024,
+                breakpoint: 1230,
                 settings: {
                     slidesToShow: 2
                 }
