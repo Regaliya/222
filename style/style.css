@@ -448,6 +448,33 @@ button {
   background: #172219;
   padding: 8px 30px;
 }
+.footer__nav {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__nav__link {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0 20px;
+}
+.footer__nav__link li {
+  display: flex;
+  margin: auto 10px;
+}
+.footer__nav__link__text {
+  text-decoration: none;
+  color: #fff;
+}
+.footer__nav__link__img {
+  width: 10px;
+  height: 5px;
+  margin: 10px 0 10px 7px;
+}
+.footer__nav__text {
+  text-decoration: none;
+  margin: 0 48px 0 0;
+}
 @media (max-width: 1230px) {
   .header__baner__hero__img {
     top: -349px;
