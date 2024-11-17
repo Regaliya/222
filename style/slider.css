@@ -22,7 +22,7 @@
 
 .slider__item__text {
 
-    width: 100%;
+    width: 300px;
     font-size: 20px;
     line-height: 155%;
     margin: 0 0 20px;
@@ -121,7 +121,7 @@
 .slider .slick-dots {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
 }
 
 .slider .slick-dots li {
