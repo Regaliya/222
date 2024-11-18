@@ -476,7 +476,7 @@ button {
   margin: 0 48px 0 0;
 }
 .footer__nav__time {
-  display: block;
+  text-align: centre;
   margin: 0 auto;
 }
 @media (max-width: 1230px) {
