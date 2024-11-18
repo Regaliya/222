@@ -464,8 +464,6 @@ button {
 }
 .footer__nav__link__text {
   text-decoration: none;
-  display: block;
-  margin: 0 auto;
   color: #fff;
 }
 .footer__nav__link__img {
@@ -476,6 +474,10 @@ button {
 .footer__nav__text {
   text-decoration: none;
   margin: 0 48px 0 0;
+}
+.footer__nav__time {
+  display: block;
+  margin: 0 auto;
 }
 @media (max-width: 1230px) {
   .header__baner__hero__img {
